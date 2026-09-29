@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria AL - Café Premium Gourmet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <!--<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a href="./index.html">
+                    <img src="./static/img/logo.jpg"  class="logo">
+                </a>
+                
+                <div class="nav" id="nav">
+                    
+                <a class="nav-link" href="/index.html">Home</a>
+                <a class="nav-link" href="./templates/cardapio.html">Cardápio</a>
+                <a class="nav-link" href="./templates/pedido.html">Pedido</a>
+                <a class="nav-link" href="./templates/sobre.html">Sobre</a>
+        
+                </div>
+            </div>
+        </nav>
+
+    </header>-->
+     <div class="header">
+    <div th:replace="~{fragments/menu :: menu}"></div>
+</div>
+
+
+
+    <main>
+        <h1>Sobre a empresa</h1>
+        <p>A Cafeteria AL foi fundada em 2015 com o objetivo de criar um espaço dedicado aos verdadeiros amantes de
+            café. A empresa trabalha com cafés gourmet artesanais, buscando oferecer qualidade em cada xícara e
+            proporcionar uma experiência diferenciada aos seus clientes.
+
+            A cafeteria utiliza grãos premium de origem única e rastreável, com torração artesanal diária. O cuidado com
+            a seleção dos grãos, o preparo das bebidas e o atendimento faz parte da proposta da empresa.
+
+            Além dos cafés, a Cafeteria AL oferece acompanhamentos e diferentes opções de bebidas, criando um ambiente
+            adequado para quem deseja tomar um café, fazer uma refeição ou simplesmente aproveitar um momento agradável.
+
+            A identidade visual da empresa utiliza tons associados ao café, como marrom e bege, transmitindo uma
+            sensação de aconchego, qualidade e sofisticação.</p>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
